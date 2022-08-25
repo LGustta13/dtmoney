@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { api } from "../../services/api";
+import { useTransactions } from "../../hooks/useTransactions";
 import { Content } from "./styles";
 
 type Transaction = {
@@ -9,17 +8,11 @@ type Transaction = {
     type: string,
     category: string,
     createdAt: string
-
 }
 
 export function TransactionsTable() {
 
-    const[transactions, setTransactions] = useState<Transaction[]>([]);
-    
-    useEffect(() => {
-        api.get('transactions')
-            .then(response => setTransactions(response.data.transactions))
-    }, []);
+    const {transactions} = useTransactions();
     
     return (
         <Content>
