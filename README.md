@@ -97,7 +97,6 @@ Caso este projeta seja clonado, executar para baixar todas as dependências
 ```
 yarn
 npm install
-
 ```
     
 <br>
