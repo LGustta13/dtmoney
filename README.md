@@ -88,15 +88,18 @@ Criando um novo projeto React pelo CLI
 yarn create react-app <nome_do_projeto>
 ```
 
-
 Para executar a aplicação no servidor local pelo react-scripts
-
-	yarn start   
-
+```
+yarn start 
+```
+  
 Caso este projeta seja clonado, executar para baixar todas as dependências
+```
+yarn
+npm install
 
-    yarn
-
+```
+    
 <br>
 
 <div id='Estrutura'/>
