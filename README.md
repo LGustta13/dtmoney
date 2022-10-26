@@ -85,7 +85,7 @@ Instalar o .exe no site https://nodejs.org/en/
 
 Criando um novo projeto React pelo CLI
 ```
-yarn create-react-app <nome_do_projeto>
+yarn create react-app <nome_do_projeto>
 ```
 
 
@@ -124,11 +124,11 @@ O [TypeScript](https://www.typescriptlang.org/docs/handbook/intro.html) é um su
 
 Configurando o TypeScript em um projeto React do zero
 
-	yarn create-react-app <nome> --template typescript 
+	yarn create react-app <nome> --template typescript 
 	
 Configurando o TypeScript em um projeto React Native em andamento
 
-	yarn add typescript @types/react -D
+	yarn add typescript @types/node @types/react @types/react-dom @types/jest -D
 
 Para o segundo caso, deve-se criar o seguinte arquivo de configuração `tsconfig.json`
 
