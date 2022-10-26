@@ -58,9 +58,24 @@ Em relação ao ReactJS, a tecnologia possibilita construir interfaces de usuár
 
 Seguindo as recomendações de preparação do ambiente de desenvolvimento, é interessante instalar ou atualizar: 
 - Chocolatey (para instalação de ferramentas e dependências no Windows)
+```
+choco upgrade chocolatey
+```
+
 - NPM (gerenciador de pacotes do Node.js)
+```
+npm install -g npm
+```
+
 - Yarn (instalação de pacotes e dependências de códigos prontos para uso)
+```
+choco upgrade yarn
+```
+
 - Node.js (ambiente de execução Javascript server-side)
+```
+Instalar o .exe no site https://nodejs.org/en/
+```
 
 <br>
 
@@ -69,8 +84,10 @@ Seguindo as recomendações de preparação do ambiente de desenvolvimento, é i
 ## O que saber antes de começar?
 
 Criando um novo projeto React pelo CLI
+```
+yarn create-react-app <nome_do_projeto>
+```
 
-	yarn create-react-app <nome_do_projeto>
 
 Para executar a aplicação no servidor local pelo react-scripts
 
