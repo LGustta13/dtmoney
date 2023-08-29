@@ -7,8 +7,6 @@ type HeaderProps = {
   onOpenNewTransactionModal: () => void;
 }
 
-console.log(process.env.BASE_URL)
-
 // export function Header({onOpenNewTransactionModal} : HeaderProps){
 export function Header(props: HeaderProps) {
 
